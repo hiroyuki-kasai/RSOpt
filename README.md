@@ -1,5 +1,7 @@
 # RSOpt (Riemannian stochastic optimization algorithms)
 
+The codes will be uploaded soon!!
+
 Authors: [Hiroyuki Kasai](http://kasai.kasailab.com/)
 
 Last page update: July 12, 2018
@@ -12,8 +14,11 @@ Algorithms
 ----------
 
 - **R-SGD**
+    - S.Bonnabel, "[Stochastic gradient descent on Riemannian manifolds](https://ieeexplore.ieee.org/document/6487381/)," IEEE Trans. on Auto. Cont., 2013.
     
 - **R-SVRG** 
+    - H.Sato, H.Kasai and B.Mishra, "[Riemannian stochastic variance reduced gradient](https://arxiv.org/abs/1702.05594),", arXiv:1702.05594, 2017.
+    - H.Zhang, S.J.Reddi, and S.Sra, "[Fast stochastic optimization on Riemannian manifolds](http://papers.nips.cc/paper/6515-riemannian-svrg-fast-stochastic-optimization-on-riemannian-manifolds)," NIPS2016, 2016.
 
 - **R-SRG** 
   - H.Kasai, H.Sato and B.Mishra, "[Riemannian Stochastic Recursive Gradient Algorithm with Retraction and Vector Transport and Its Convergence Analysis](https://so-zou.jp/web-app/news/nettv-news/)," ICML2018.
