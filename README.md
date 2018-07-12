@@ -21,7 +21,7 @@ Algorithms
     - H.Zhang, S.J.Reddi, and S.Sra, "[Fast stochastic optimization on Riemannian manifolds](http://papers.nips.cc/paper/6515-riemannian-svrg-fast-stochastic-optimization-on-riemannian-manifolds)," NIPS2016, 2016.
 
 - **R-SRG** 
-  - H.Kasai, H.Sato and B.Mishra, "[Riemannian Stochastic Recursive Gradient Algorithm with Retraction and Vector Transport and Its Convergence Analysis](https://so-zou.jp/web-app/news/nettv-news/)," ICML2018.
+  - H.Kasai, H.Sato and B.Mishra, "[Riemannian Stochastic Recursive Gradient Algorithm with Retraction and Vector Transport and Its Convergence Analysis](https://so-zou.jp/web-app/news/nettv-news/)," ICML2018, 2018.
   
 <br />
 
