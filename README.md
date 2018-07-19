@@ -41,7 +41,6 @@ Folders and files
 |solvers/               - Contains various Riemannian stochastic optimization algorithms.
 |tool/                  - Some auxiliary tools for this project.
 |manopt/                - Contains manopt toolbox.
-
 </pre>  
 <br />
  
@@ -52,11 +51,20 @@ Run `run_me_first` for path configurations.
 ```Matlab
 %% First run the setup script
 run_me_first; 
+
+<br />
+
+Demonstration script
+----------------------------
+Run `demo` for computing the **N** Riemannian centroid on the **d?d** symmetric positive-definite (SPD) manifold. This problem frequently appears in computer vision
+problems such as visual object categorization and pose categorization. This demonstation is N=500 and d=3.
+```Matlab
+demo; 
 ```
 
 More plots
 ----------------------------
-Run `show_centroid_plots` for the same Riemannian centroid problem. This scripts compares R-SGD, R-SVRG and R-SRG as well as batch algorithms including R-SD and R-CG.
+Run `show_centroid_plots` for the same Riemannian centroid problem. This scripts compares R-SGD, R-SVRG and R-SRG as well as batch algorithms including R-SD and R-CG. This scripts handles N=5000 and d=10.
 ```Matlab
 show_centroid_plots; 
 ```
