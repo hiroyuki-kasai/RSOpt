@@ -60,12 +60,15 @@ Run `demo` for computing the **N** Riemannian centroid on the **dxd** symmetric 
 problems such as visual object categorization and pose categorization. This demonstation handles N=500 and d=3.
 ```Matlab
 demo; 
+
+<br />
+<img src="http://www.kasailab.com/public/github/RSOpt/images/RCProblem_N500_d3_integrate.png" width="900">
 ```
 <br />
 
 More plots
 ----------------------------
-Run `show_centroid_plots` for the same Riemannian centroid problem. This scripts compares R-SGD, R-SVRG and R-SRG as well as batch algorithms including R-SD and R-CG. This scripts handles N=5000 and d=10.
+Run `show_centroid_plots` for the same Riemannian centroid problem. This scripts compares R-SGD, R-SVRG, R-SRG and R-SRG+ as well as batch algorithms including R-SD and R-CG. This scripts handles N=5000 and d=10.
 ```Matlab
 show_centroid_plots; 
 ```
