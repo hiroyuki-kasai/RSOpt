@@ -16,7 +16,8 @@ min_{w in M} f(w) := 1/n sum_{i=1}^n f_i(w), where n is the total number of the 
 
 This problem has many applications; for example, in [principal component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) (PCA) and the subspace tracking problem, 
 which is the set of r-dimensional linear subspaces in R^d. 
-The low-rank [matrix comletion](https://en.wikipedia.org/wiki/Matrix_completion) problem and tensor completion problem are promising applications concerning the manifold of fixed-rank matrices/tensors. The linear regression problem is also defined on the manifold of fixed-rank matrices. 
+The low-rank [matrix comletion](https://en.wikipedia.org/wiki/Matrix_completion) problem and tensor completion problem are promising applications concerning the manifold of fixed-rank matrices/tensors. 
+The [linear regression](https://en.wikipedia.org/wiki/Linear_regression) problem is also defined on the manifold of fixed-rank matrices. 
 
 A popular choice of algorithms for solving this probem is the Riemannian gradient descent method, which calculates the Riemannian full gradient estimation for every iteration.
 However, this estimation is computationally costly when n is extremely large. A popular alternative is the **Riemannian stochastic gradient descent algorithm (R-SGD)**, 
