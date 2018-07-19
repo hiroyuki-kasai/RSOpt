@@ -66,7 +66,7 @@ License
 
 Notes
 ---------------------
-- The code is compliant to [manopt project](https://manopt.org/tutorial.html).
+- The code is compliant to [manopt project](https://manopt.org/).
 
 
 <br />
