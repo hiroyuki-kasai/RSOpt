@@ -51,7 +51,7 @@ Run `run_me_first` for path configurations.
 ```Matlab
 %% First run the setup script
 run_me_first; 
-
+```
 <br />
 
 Demonstration script
