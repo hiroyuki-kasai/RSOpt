@@ -56,11 +56,12 @@ run_me_first;
 
 Demonstration script
 ----------------------------
-Run `demo` for computing the **N** Riemannian centroid on the **d?d** symmetric positive-definite (SPD) manifold. This problem frequently appears in computer vision
-problems such as visual object categorization and pose categorization. This demonstation is N=500 and d=3.
+Run `demo` for computing the **N** Riemannian centroid on the **dxd** symmetric positive-definite (SPD) manifold. This problem frequently appears in computer vision
+problems such as visual object categorization and pose categorization. This demonstation handles N=500 and d=3.
 ```Matlab
 demo; 
 ```
+<br />
 
 More plots
 ----------------------------
@@ -68,7 +69,7 @@ Run `show_centroid_plots` for the same Riemannian centroid problem. This scripts
 ```Matlab
 show_centroid_plots; 
 ```
-
+<br />
 <img src="http://www.kasailab.com/public/github/RSOpt/images/RCProblem_N5000_d10_integrate.png" width="900">
 
 
