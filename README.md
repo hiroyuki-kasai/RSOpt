@@ -60,10 +60,10 @@ Run `demo` for computing the **N** Riemannian centroid on the **dxd** symmetric 
 problems such as visual object categorization and pose categorization. This demonstation handles N=500 and d=3.
 ```Matlab
 demo; 
+```
 
 <br />
 <img src="http://www.kasailab.com/public/github/RSOpt/images/RCProblem_N500_d3_integrate.png" width="900">
-```
 <br />
 
 More plots
