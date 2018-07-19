@@ -1,12 +1,10 @@
 # RSOpt (Riemannian stochastic optimization algorithms)
 
-The codes will be uploaded soon!!
-
 Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm)
 
-Last page update: July 12, 2018
+Last page update: July 20, 2018
 
-Latest version: 1.0.0 (see Release notes for more info)
+Latest version: 1.0.1 (see Release notes for more info)
 
 <br />
 
@@ -102,6 +100,8 @@ If you have any problems or questions, please contact the author: [Hiroyuki Kasa
 
 Release Notes
 --------------
+* Version 1.0.1 (July 20, 2018)
+    - Initial codes are available.
 * Version 1.0.0 (July 12, 2018)
     - Initial version.  
 
