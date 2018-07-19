@@ -12,23 +12,25 @@ Intdocution
 ----------
 
 Let f: M -> R be a smooth real-valued function on a **Riemannian manifold M**. The target problem concerns a given model variable w on M, and is expressed as
-min_{w in M} f(w) := 1/n sum_{i=1}^n f_i(w), where n is the total number of the elements. This problem has many applications; for example, in principal component analysis (PCA) and the subspace tracking problem, 
+min_{w in M} f(w) := 1/n sum_{i=1}^n f_i(w), where n is the total number of the elements. 
+
+This problem has many applications; for example, in principal component analysis (PCA) and the subspace tracking problem, 
 which is the set of r-dimensional linear subspaces in R^d. 
 The low-rank matrix/tensor completion problem is a promising application concerning the manifold of fixed-rank matrices/tensors. The linear regression problem is also defined on the manifold of fixed-rank matrices. 
 
 A popular choice of algorithms for solving this probem is the Riemannian gradient descent method, which calculates the Riemannian full gradient estimation for every iteration.
-However, this estimation is computationally costly when n is extremely large. A popular alternative is the **Riemannian stochastic gradient descent** algorithm (R-SGD), 
+However, this estimation is computationally costly when n is extremely large. A popular alternative is the **Riemannian stochastic gradient descent algorithm (R-SGD)**, 
 which extends the **stochastic gradient descent algorithm (SGD)** in the Euclidean space to the Riemannian manifold. 
 As R-SGD calculates only one gradient for the i-th sample, the complexity per iteration is independent of the sample size n. 
 Although R-SGD requires retraction and vector transport operations in every iteration, those calculation costs can be ignored when they are lower than those of the stochastic gradient; 
 this applies to many important Riemannian optimization problems, including the low-rank tensor completion problem and the Riemannian centroid problem. 
 
 Similar to SGD, R-SGD is hindered by a slow convergence rate due to a **decaying step size** sequence. To accelerate the rate of R-SGD, 
-the Riemannian stochastic variance reduced gradient algorithm (R-SVRG) has recently been proposed; 
+the **Riemannian stochastic variance reduced gradient algorithm (R-SVRG)** has recently been proposed; 
 this technique reduces the variance of the stochastic gradient exploiting the finite-sum based on recent progress in **variance reduction** methods in the Euclidean space . 
 One distinguished feature is reduction of the variance of noisy stochastic gradients by periodical full gradient estimations, which yields a linear convergence rate.
 R-SQN-VR has also recently been proposed, where a stochastic quasi-Newton algorithm and the variance reduced methods are mutually combined. 
-Furthermore, the Riemannian stochastic recursive gradient algorithm (R-SRG) has been also proposed to accelerate the convergence rate of R-SGD.
+Furthermore, the **Riemannian stochastic recursive gradient algorithm (R-SRG)** has been also proposed to accelerate the convergence rate of R-SGD.
 
 This RSOpt package provides the MATLAB implementation codes for those algorithms above.
 
