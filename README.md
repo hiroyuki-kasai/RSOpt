@@ -4,7 +4,7 @@ Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm)
 
 Last page update: July 20, 2018
 
-Latest version: 1.0.1 (see Release notes for more info)
+Latest version: 1.0.1 (see Release notes for more info) 
 
 <br />
 
