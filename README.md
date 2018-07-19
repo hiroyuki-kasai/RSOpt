@@ -13,18 +13,18 @@ Latest version: 1.0.0 (see Release notes for more info)
 Algorithms
 ----------
 
-- **R-SGD (Riemannian stochastic gradient descent)**
+- **R-SGD (Riemannian stochastic gradient descent)** algorithm
     - S.Bonnabel, "[Stochastic gradient descent on Riemannian manifolds](https://ieeexplore.ieee.org/document/6487381/)," IEEE Trans. on Auto. Cont., 2013.
     
-- **R-SVRG (Riemannian stochastic variance reduced gradient)** 
+- **R-SVRG (Riemannian stochastic variance reduced gradient)** algorithm 
     - H.Sato, H.Kasai and B.Mishra, "[Riemannian stochastic variance reduced gradient](https://arxiv.org/abs/1702.05594)," arXiv:1702.05594, 2017.
     - H.Kasai, H.Sato and B.Mishra, "[Riemannian stochastic variance reduced gradient on Grassmann manifold](http://opt-ml.org/papers/OPT2016_paper_13.pdf)," NIPS workshop OPT2016, 2016.
     - H.Zhang, S.J.Reddi and S.Sra, "[Fast stochastic optimization on Riemannian manifolds](http://papers.nips.cc/paper/6515-riemannian-svrg-fast-stochastic-optimization-on-riemannian-manifolds)," NIPS2016, 2016.
 
-- **R-SRG (Riemannian stochastic recursive gradient)** 
-  - H.Kasai, H.Sato and B.Mishra, "[Riemannian stochastic recursive gradient algorithm with retraction and vector transport and its convergence analysis](http://proceedings.mlr.press/v80/kasai18a.html)," ICML2018, 2018.
+- **R-SRG (Riemannian stochastic recursive gradient)** algorithm
+  - H.Kasai, H.Sato and B.Mishra, "[Riemannian stochastic recursive gradient algorithm](http://proceedings.mlr.press/v80/kasai18a.html)," ICML2018, 2018.
 
-- **R-SQN-VR (Riemannian stochastic quasi-Newton algorithm with variance reduction)** 
+- **R-SQN-VR (Riemannian stochastic quasi-Newton algorithm with variance reduction)** algorithm
   - H.Kasai, H.Sato and B.Mishra, "[Riemannian stochastic quasi-Newton algorithm with variance reduction and its convergence analysis](http://proceedings.mlr.press/v84/kasai18a.html)," AISTATS2018, 2018.
 
   
