@@ -26,11 +26,11 @@ Although R-SGD requires retraction and vector transport operations in every iter
 this applies to many important Riemannian optimization problems, including the low-rank tensor completion problem and the Riemannian centroid problem. 
 
 Similar to SGD, R-SGD is hindered by a slow convergence rate due to a **decaying step size** sequence. To accelerate the rate of R-SGD, 
-the **Riemannian stochastic variance reduced gradient algorithm (R-SVRG)** has recently been proposed; 
+the **Riemannian stochastic variance reduced gradient algorithm (R-SVRG)** has been proposed; 
 this technique reduces the variance of the stochastic gradient exploiting the finite-sum based on recent progress in **variance reduction** methods in the Euclidean space . 
 One distinguished feature is reduction of the variance of noisy stochastic gradients by periodical full gradient estimations, which yields a linear convergence rate.
-R-SQN-VR has also recently been proposed, where a stochastic quasi-Newton algorithm and the variance reduced methods are mutually combined. 
-Furthermore, the **Riemannian stochastic recursive gradient algorithm (R-SRG)** has been also proposed to accelerate the convergence rate of R-SGD.
+**Riemannian stochastic quasi-Newton algorithm with variance reduction algorithm (R-SQN-VR)** has also recently been proposed, where a stochastic quasi-Newton algorithm and the variance reduced methods are mutually combined. 
+Furthermore, the **Riemannian stochastic recursive gradient algorithm (R-SRG)** has recently been also proposed to accelerate the convergence rate of R-SGD.
 
 This RSOpt package provides the MATLAB implementation codes for those algorithms above.
 
