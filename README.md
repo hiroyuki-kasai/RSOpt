@@ -31,6 +31,46 @@ Algorithms
 <br />
 
 
+Folders and files
+---------
+<pre>
+./                      - Top directory.
+./README.md             - This readme file.
+./run_me_first.m        - The scipt that you need to run first.
+./demo.m                - Demonstration script to check and understand this package easily. 
+|solvers/               - Contains various Riemannian stochastic optimization algorithms.
+|tool/                  - Some auxiliary tools for this project.
+|manopt/                - Contains manopt toolbox.
+
+</pre>  
+<br />
+ 
+
+First to do
+----------------------------
+Run `run_me_first` for path configurations. 
+```Matlab
+%% First run the setup script
+run_me_first; 
+```
+
+<br />
+
+License
+---------------------
+- The code is free and open source.
+- The code should only be used for academic/research purposes.
+
+<br />
+
+
+Notes
+---------------------
+- The code is compliant to [manopt project](https://manopt.org/tutorial.html).
+
+
+<br />
+
 Problems or questions
 ---------------------
 If you have any problems or questions, please contact the author: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm) (email: kasai **at** is **dot** uec **dot** ac **dot** jp)
