@@ -2,7 +2,7 @@
 
 The codes will be uploaded soon!!
 
-Authors: [Hiroyuki Kasai](http://kasai.kasailab.com/)
+Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm)
 
 Last page update: July 12, 2018
 
@@ -33,7 +33,7 @@ Algorithms
 
 Problems or questions
 ---------------------
-If you have any problems or questions, please contact the author: [Hiroyuki Kasai](http://kasai.kasailab.com/) (email: kasai **at** is **dot** uec **dot** ac **dot** jp)
+If you have any problems or questions, please contact the author: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm) (email: kasai **at** is **dot** uec **dot** ac **dot** jp)
 
 <br />
 
