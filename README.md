@@ -54,6 +54,17 @@ Run `run_me_first` for path configurations.
 run_me_first; 
 ```
 
+More plots
+----------------------------
+Run `show_centroid_plots` for the same Riemannian centroid problem. This scripts compares R-SGD, R-SVRG and R-SRG as well as batch algorithms including R-SD and R-CG.
+```Matlab
+show_centroid_plots; 
+```
+
+<img src="http://www.kasailab.com/public/github/RSOpt/images/RCProblem_N5000_d10_integrate.png" width="900">
+
+
+
 <br />
 
 License
