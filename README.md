@@ -33,9 +33,9 @@ One distinguished feature is reduction of the variance of noisy stochastic gradi
 **Riemannian stochastic quasi-Newton algorithm with variance reduction algorithm (R-SQN-VR)** has also recently been proposed, where a stochastic quasi-Newton algorithm and the variance reduced methods are mutually combined. 
 Furthermore, the **Riemannian stochastic recursive gradient algorithm (R-SRG)** has recently been also proposed to accelerate the convergence rate of R-SGD.
 
-This RSOpt package provides the MATLAB implementation codes for those algorithms above.
+This RSOpt package provides the MATLAB implementation codes for those stochastic algorithms above. 
 
-
+Note that various manifold algrithms on various manifolds are implemented in MATLAB toolbox [manopt](https://manopt.org/). The RSOpt codes are compliant to manopt. Also, please see [here](https://press.princeton.edu/titles/8586.html) for more comprehensive explanation of **Optimization algorithms on matrix manifolds**.
 
 <br />
 
