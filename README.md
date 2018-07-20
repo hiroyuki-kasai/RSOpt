@@ -54,7 +54,7 @@ Algorithms
 - **R-SRG (Riemannian stochastic recursive gradient)** algorithm
   - H.Kasai, H.Sato and B.Mishra, "[Riemannian stochastic recursive gradient algorithm](http://proceedings.mlr.press/v80/kasai18a.html)," ICML2018, 2018.
 
-- **R-SQN-VR (Riemannian stochastic quasi-Newton algorithm with variance reduction)** algorithm
+- (Not yet included) **R-SQN-VR (Riemannian stochastic quasi-Newton algorithm with variance reduction)** 
   - H.Kasai, H.Sato and B.Mishra, "[Riemannian stochastic quasi-Newton algorithm with variance reduction and its convergence analysis](http://proceedings.mlr.press/v84/kasai18a.html)," AISTATS2018, 2018.
 
   
