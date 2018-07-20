@@ -119,7 +119,7 @@ License
 
 Notes
 ---------------------
-- The code is compliant to [manopt project](https://manopt.org/).
+- The code is compliant to MATLAB toolbox [manopt](https://manopt.org/).
 
 
 <br />
