@@ -24,7 +24,7 @@ function [x, cost, info, options] = Riemannian_srg(problem, x, options)
 %
 % The solver is based on the paper by
 % H. Kasai, H. Sato, and B. Mishra,
-% "Riemannian stochastic recursive gradient," ICML2018, 2018.
+% "Riemannian stochastic recursive gradient algorithm," ICML2018, 2018.
 
 
 

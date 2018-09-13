@@ -1,8 +1,12 @@
 function show_centroid_plots()
+% This file is part of RSOpt package.
+%
+% Created by H.Kasai and B.Mishra on July 20, 2018
+% Modified by H.Kasai on Sep. 13, 2018
     
     clc; close all; clear
 
-    %% Define parameters
+    %% define parameters
     tolgradnorm = 1e-8;
     inner_repeat = 1;
     
@@ -22,28 +26,31 @@ else
     cn = 5; 
     srg_varpi = 0.05;
 end
-    
 
+
+
+
+    %% generate dataset
     input_filename = sprintf('./dataset/psd/psd_mean_%d_%d_%d.mat', d, N, cn);
     fprintf('Reading file %s with (d:%d N:%d cn:%d) .... ', input_filename, d, N, cn); 
     input_data = load(input_filename);        
-
     A = zeros(d, d, N);
-
     A = input_data.x_sample{1};
     fprintf('done\n');
-
     f_sol = input_data.f_sol{1}; 
     fprintf('f_sol: %.16e\n', f_sol);           
 
     
-    %% Set manifold
+    
+    
+    
+    %% set manifold
     problem.M = sympositivedefinitefactory_mod(d);  
     problem.ncostterms = N;     
 
     
     
-    % Cost function
+    %% define problem
     problem.cost = @cost;    
     function f = cost(X)
         f=0;
@@ -60,10 +67,8 @@ end
             f = f + norm(logm(arg),'fro')^2;
         end
         
-        f = f/(N);
+        f = f/(2*N);
     end
-
-
 
     % Riemannian gradient of the cost function
     problem.rgrad = @rgrad;      
@@ -78,10 +83,9 @@ end
 
         g = 2*X*logsum;
         g = (g+g')/2;
-        g = g/N;
+        g = g/(2*N);
     end
     
-
 
     % Riemannian stochastic gradient of the cost function
     problem.partialgrad = @partialgrad;
@@ -106,27 +110,29 @@ end
     
     
     
-    %% Run algorithms    
     
-    % Initialize
+    
+    %% run algorithms    
+    
+    % initialize
     Uinit = problem.M.rand();
     
 
-    % Run R-SD
+    % R-SD
     clear options;
     options.maxiter = maxepoch;
     options.tolgradnorm = tolgradnorm;         
     [~, ~, infos_sd, options_sd] = steepestdescent(problem, Uinit, options); 
     
     
-    % Run R-CG
+    % R-CG
     clear options;
     options.maxiter = maxepoch;
     options.tolgradnorm = tolgradnorm;         
     [~, ~, infos_cg, options_cg] = conjugategradient(problem, Uinit, options);     
     
     
-    % Run SGD with decay step-size
+    % R-SGD with decay step-size
     clear options;
     options.verbosity = 1;
     options.batchsize = 10;
@@ -141,7 +147,7 @@ end
     [~, ~, infos_sgd, options_sgd] = Riemannian_svrg(problem, Uinit, options);
 
     
-    % Run SVRG
+    % R-SVRG
     clear options;
     options.verbosity = 1;
     options.batchsize = 10;
@@ -158,7 +164,7 @@ end
     [~, ~, infos_svrg, options_svrg] = Riemannian_svrg(problem, Uinit, options);
 
 
-    % Run SRG
+    % R-SRG
     clear options;
     options.verbosity = 1;
     options.batchsize = 10;
@@ -187,7 +193,7 @@ end
     [~, ~, infos_srg_plus, options_srg_plus] = Riemannian_srg(problem, Uinit, options);  
 
     
-    % Calculate # of gradient evaluations
+    % calculate # of gradient evaluations
     num_grads_sd = (1:length([infos_sd.cost])) - 1; % N*options_sd.maxiter;
     num_grads_cg = (1:length([infos_cg.cost])) - 1; % N*options_sd.maxiter;    
     num_grads_sgd = ceil(options_sgd.maxinneriter/N)*((1:length([infos_sgd.cost])) - 1); % options.maxepoch*(options_sgd.maxinneriter);
@@ -206,7 +212,7 @@ end
     
       
     
-    %% Plots
+    %% plots
     fs = 20;
 
     % Optimality gap (Train loss - optimum) versus #grads/N     

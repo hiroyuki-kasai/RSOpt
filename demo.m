@@ -1,15 +1,18 @@
 function demo()
+% This file is part of RSOpt package.
+%
+% Created by H.Kasai and B.Mishra on July 20, 2018
     
     clc; close all; clear
 
 
-    %% Define parameters
+    %% define parameters
     N = 500;
     d = 3;    
    
     
     
-    %% Read dataset
+    %% read dataset
     input_data = load('./dataset/psd/psd_mean_3_500_5.mat');
     A = zeros(d, d, N);
     A = input_data.x_sample{1};
@@ -18,13 +21,13 @@ function demo()
 
     
 
-    %% Set manifold
+    %% set manifold
     problem.M = sympositivedefinitefactory_mod(d);  
     problem.ncostterms = N;     
     
     
-    
-    %% Cost function
+    %% define problem
+    % cost function
     problem.cost = @cost;    
     function f = cost(X)
         f=0;
@@ -46,7 +49,7 @@ function demo()
 
 
 
-    %% Riemannian gradient of the cost function
+    % Riemannian gradient of the cost function
     problem.rgrad = @rgrad;      
     function g = rgrad(X)
 
@@ -64,7 +67,7 @@ function demo()
     
 
 
-    %% Riemannian stochastic gradient of the cost function
+    % Riemannian stochastic gradient of the cost function
     problem.partialgrad = @partialgrad;
     function g = partialgrad(X, idx_batchsize)        
 
@@ -88,7 +91,7 @@ function demo()
     
     
     
-    %% Run SRG algorithms    
+    %% run SRG algorithm    
     
     Init = problem.M.rand();
     
@@ -107,7 +110,7 @@ function demo()
     
       
     
-    %% Plots
+    %% plots
     fs = 20;
 
     % Optimality gap (Train loss - optimum) versus #grads/N     
