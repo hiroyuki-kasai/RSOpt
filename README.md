@@ -1,6 +1,7 @@
 # RSOpt (Riemannian stochastic optimization algorithms)
 
 Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm)
+
 Collaborators: [Bamdev Mishra](https://bamdevmishra.in/) and [Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/)
 
 Last page update: September 13, 2018
