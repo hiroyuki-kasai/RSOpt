@@ -2,9 +2,9 @@
 
 Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm), [Bamdev Mishra](https://bamdevmishra.in/) and [Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/)
 
-Last page update: September 13, 2018
+Last page update: May 31, 2019
 
-Latest version: 1.0.2 (see Release notes for more info) 
+Latest version: 1.0.3 (see Release notes for more info) 
 
 <br />
 
@@ -47,7 +47,7 @@ Algorithms
     - S.Bonnabel, "[Stochastic gradient descent on Riemannian manifolds](https://ieeexplore.ieee.org/document/6487381/)," IEEE Trans. on Auto. Cont., 2013.
     
 - **R-SVRG (Riemannian stochastic variance reduced gradient)** algorithm 
-    - H.Sato, H.Kasai and B.Mishra, "[Riemannian stochastic variance reduced gradient](https://arxiv.org/abs/1702.05594)," arXiv:1702.05594, 2017.
+    - H.Sato, H.Kasai and B.Mishra, "Riemannian stochastic variance reduced gradient with retration and vector transport," [SIOPT2019](https://epubs.siam.org/doi/10.1137/17M1116787), [arXiv2017](https://arxiv.org/abs/1702.05594).
     - H.Kasai, H.Sato and B.Mishra, "[Riemannian stochastic variance reduced gradient on Grassmann manifold](http://opt-ml.org/papers/OPT2016_paper_13.pdf)," NIPS workshop OPT2016, 2016.
     - H.Zhang, S.J.Reddi and S.Sra, "[Fast stochastic optimization on Riemannian manifolds](http://papers.nips.cc/paper/6515-riemannian-svrg-fast-stochastic-optimization-on-riemannian-manifolds)," NIPS2016, 2016.
 
@@ -132,6 +132,8 @@ If you have any problems or questions, please contact the author: [Hiroyuki Kasa
 
 Release Notes
 --------------
+* Version 1.0.3 (May 31, 2019)
+    - The paper informaiton of R-SVRG is updated. 
 * Version 1.0.2 (Sep. 13, 2018)
     - MC problem (with Jester dataset) example is added. 
 * Version 1.0.1 (July 20, 2018)
