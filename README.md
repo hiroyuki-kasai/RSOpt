@@ -1,6 +1,6 @@
 # RSOpt (Riemannian stochastic optimization algorithms)
 
-Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm), [Bamdev Mishra](https://bamdevmishra.in/) and [Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/)
+Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm), [Bamdev Mishra](https://bamdevmishra.in/), [Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/), [Pratik Jawanpuria](https://pratikjawanpuria.com/publications/)
 
 Last page update: May 31, 2019
 
@@ -56,6 +56,10 @@ Algorithms
 
 - **R-SQN-VR (Riemannian stochastic quasi-Newton algorithm with variance reduction)** (Not yet included) 
   - H.Kasai, H.Sato and B.Mishra, "[Riemannian stochastic quasi-Newton algorithm with variance reduction and its convergence analysis](http://proceedings.mlr.press/v84/kasai18a.html)," AISTATS2018, 2018.
+
+- **RASA** (**R**iemannian **A**daptive **S**tochastic gradient **a**lgorithm on matrix manifolds) (Coming soon!) 
+  - H.Kasai, P.Jawanpuria and B.Mishra, "Riemannian adaptive stochastic gradient algorithms on matrix manifolds," [ICML2019](http://proceedings.mlr.press/v97/kasai19a.html), 2019.
+
 
   
 <br />
@@ -133,7 +137,7 @@ If you have any problems or questions, please contact the author: [Hiroyuki Kasa
 Release Notes
 --------------
 * Version 1.0.3 (May 31, 2019)
-    - The paper informaiton of R-SVRG is updated. 
+    - Some paper informaiton are updated. 
 * Version 1.0.2 (Sep. 13, 2018)
     - MC problem (with Jester dataset) example is added. 
 * Version 1.0.1 (July 20, 2018)
