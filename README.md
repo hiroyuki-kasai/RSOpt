@@ -60,6 +60,10 @@ Algorithms
 - **RASA** (**R**iemannian **A**daptive **S**tochastic gradient **a**lgorithm on matrix manifolds) (Coming soon!) 
   - H.Kasai, P.Jawanpuria and B.Mishra, "Riemannian adaptive stochastic gradient algorithms on matrix manifolds," [ICML2019](http://proceedings.mlr.press/v97/kasai19a.html), 2019.
 
+- **Sub-RTR** (**Sub**sampled **R**iemannian **t**rust-**r**egion (RTR) algorithms)
+  - H.Kasai and B.Mishra, "Inexact trust-region algorithms on Riemannian manifolds," [NeurIPS2018](https://proceedings.neurips.cc/paper/2018/hash/3e9e39fed3b8369ed940f52cf300cf88-Abstract.html), 2018.
+  - The code is available at [here](https://github.com/hiroyuki-kasai/Subsampled-RTR).
+
 
   
 <br />
