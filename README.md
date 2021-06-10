@@ -2,7 +2,7 @@
 
 Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm), [Bamdev Mishra](https://bamdevmishra.in/), [Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/), [Pratik Jawanpuria](https://pratikjawanpuria.com/publications/)
 
-Last page update: May 31, 2019
+Last page update: JUne 10, 2021
 
 Latest version: 1.0.3 (see Release notes for more info) 
 
