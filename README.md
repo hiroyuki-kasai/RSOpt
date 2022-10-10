@@ -77,7 +77,7 @@ R-SVRG v.s. R-SRG
 |Need no inverse of retraction|| &check;|
 |Accelerated variant|| &check;|
 
-
+<br />
 
 Folders and files
 ---------
