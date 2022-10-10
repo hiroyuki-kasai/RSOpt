@@ -68,10 +68,10 @@ Algorithms
   
 <br />
 
-R-SVRG v.s. R-SRG
+R-SVRG vs. R-SRG
 ----------
 
-|Category|R-SVRG| R-SRG|
+|Item|R-SVRG| R-SRG|
 |---|---|---|
 |Need no transport vectors from previous iterate| &#x2610; (Rrequire existence of inverse of retraction for vector transport) | &#x2611;|
 |Need no inverse of retraction|&#x2610;| &#x2611; (Computationally efficient, Applicable to a wider range of manifolds)|
