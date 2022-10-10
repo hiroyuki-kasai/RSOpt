@@ -68,6 +68,18 @@ Algorithms
   
 <br />
 
+R-SVRG v.s. R-SRG
+
+|Category|R-SVRG| R-SRG|
+|---|---|---|
+|No need of transport vectors from previous iterate|| &check|
+|Need no inverse of retraction|| &check|
+|Accelerated variant|| &check|
+
+----------
+
+<br />
+
 
 Folders and files
 ---------
