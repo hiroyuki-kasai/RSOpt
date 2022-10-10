@@ -73,9 +73,9 @@ R-SVRG v.s. R-SRG
 
 |Category|R-SVRG| R-SRG|
 |---|---|---|
-|Need no transport vectors from previous iterate| &#x2610; (require existence of inverse of retraction for vector transport) | &#x2611;|
-|Need no inverse of retraction|&#x2610;| &#x2611; (Computationally efficient , Applicable to a wider range of manifolds)|
-|Accelerated variant|&#x2610;| &#x2611;|
+|Need no transport vectors from previous iterate| _ (require existence of inverse of retraction for vector transport) | &check;|
+|Need no inverse of retraction|| &check; (Computationally efficient, Applicable to a wider range of manifolds)|
+|Accelerated variant|| &check; (See *More plots* below)|
 
 <br />
 
