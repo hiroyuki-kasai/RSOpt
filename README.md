@@ -2,9 +2,9 @@
 
 Authors: [Hiroyuki Kasai](http://www.kasailab.com/kasai_e.htm), [Bamdev Mishra](https://bamdevmishra.in/), [Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/), [Pratik Jawanpuria](https://pratikjawanpuria.com/publications/)
 
-Last page update: JUne 10, 2021
+Last page update: October 10, 2022
 
-Latest version: 1.0.3 (see Release notes for more info) 
+Latest version: 1.0.4 (see Release notes for more info) 
 
 <br />
 
@@ -150,6 +150,8 @@ If you have any problems or questions, please contact the author: [Hiroyuki Kasa
 
 Release Notes
 --------------
+* Version 1.0.4 (Oct. 10, 2022)
+    - Readme file is updated. 
 * Version 1.0.3 (May 31, 2019)
     - Some paper informaiton are updated. 
 * Version 1.0.2 (Sep. 13, 2018)
